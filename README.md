@@ -33,4 +33,4 @@ Pendapatan tinggi, spending rendah. Bisa jadi ini orang kaya tapi nggak suka bel
 
 # visualisasi distribusi data (histogram + garis KDE)
 
-![Dashboard Auto-MPG] (https://github.com/RIFAANDIANI/Modul-9-Clustering/blob/master/Screenshot%202025-10-28%20030212.png)
+![Dashboard Auto-MPG](https://github.com/RIFAANDIANI/Modul-9-Clustering/blob/master/Screenshot%202025-10-28%20030212.png)
