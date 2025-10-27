@@ -1,5 +1,5 @@
 # Modul-9-Clustering
-###  Visualisasi
+##  Visualisasi
 
 ![Dashboard Auto-MPG](https://github.com/RIFAANDIANI/Modul-9-Clustering/blob/master/Screenshot%202025-10-28%20024241.png)
 1. Sumbu X dan Y
@@ -31,7 +31,7 @@ Pendapatan rendah, spending rendah. Ini segmen pelanggan yang “hemat” atau j
 Cluster 4 (Kuning)
 Pendapatan tinggi, spending rendah. Bisa jadi ini orang kaya tapi nggak suka belanja (conservative customer).
 
-### visualisasi distribusi data (histogram + garis KDE)
+## visualisasi distribusi data (histogram + garis KDE)
 
 ![Dashboard Auto-MPG](https://github.com/RIFAANDIANI/Modul-9-Clustering/blob/master/Screenshot%202025-10-28%20030212.png)
 
@@ -82,3 +82,49 @@ Mayoritas pelanggan usia 25–35 tahun.
 Pendapatan tahunan rata-rata sekitar 50–80k$.
 
 Spending Score tersebar merata, artinya pola belanja pelanggan cukup beragam.
+
+## eatmap korelasi antar fitur (correlation matrix)
+
+![Dashboard Auto-MPG](https://github.com/RIFAANDIANI/Modul-9-Clustering/blob/master/Screenshot%202025-10-28%20031443.png)
+
+Sumbu X dan Y berisi tiga variabel:
+
+Age (usia pelanggan)
+
+Annual Income (k$) (pendapatan tahunan dalam ribuan dolar)
+
+Spending Score (1–100) (tingkat kebiasaan belanja)
+
+Warna pada kotak menunjukkan arah dan kekuatan hubungan:
+
+🔴 Merah tua (+1) = hubungan positif kuat
+
+🔵 Biru tua (–1) = hubungan negatif kuat
+
+⚪ Abu-abu (0) = tidak ada hubungan yang berarti
+
+### Cara Membaca Nilainya
+
+| Hubungan Variabel                   | Nilai Korelasi | Arti           | Penjelasan                                                                                                                                      |
+| ----------------------------------- | -------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Age vs Annual Income**            | –0.012         | Hampir 0       | Tidak ada hubungan berarti antara usia dan pendapatan. Jadi, umur tidak memengaruhi besar kecilnya pendapatan dalam data ini.                   |
+| **Age vs Spending Score**           | –0.33          | Negatif sedang | Artinya, semakin tua umur pelanggan, semakin rendah *spending score*-nya. Jadi, pelanggan muda cenderung lebih suka belanja.                    |
+| **Annual Income vs Spending Score** | +0.0099        | Hampir 0       | Tidak ada hubungan berarti antara pendapatan dan kebiasaan belanja. Jadi, orang dengan pendapatan tinggi belum tentu suka belanja lebih banyak. |
+
+Arti Warna di Grafik
+
+Kotak merah diagonal (nilai = 1) menunjukkan korelasi diri sendiri (setiap variabel dengan dirinya).
+
+Kotak biru muda (contoh Age vs Spending Score) menunjukkan hubungan negatif sedang.
+
+Kotak abu-abu berarti hubungan sangat lemah atau hampir tidak ada.
+
+kesimpulan 
+
+Variabel Age punya pengaruh negatif sedang terhadap Spending Score.
+→ Orang muda lebih sering berbelanja, sedangkan orang lebih tua lebih hemat.
+
+Annual Income hampir tidak berpengaruh pada Spending Score.
+→ Spending habit tidak ditentukan oleh seberapa besar pendapatan.
+
+Tidak ada korelasi yang kuat antar variabel (semuanya < |0.5|).
