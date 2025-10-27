@@ -18,11 +18,15 @@ Contohnya:
 
 Cluster 0 (Ungu Tua)
 Pendapatan sedang, spending sedang. Biasanya ini pelanggan “biasa” — nggak terlalu konsumtif.
+
 Cluster 1 (Biru Tua)
 Spending tinggi, kemungkinan pendapatan juga lumayan. Ini segmen pelanggan “premium” atau “royal spender”.
+
 Cluster 2 (Hijau Toska)
 Spending tinggi tapi mungkin pendapatan menengah. Biasanya kelompok “smart spender” — suka belanja tapi terkontrol.
+
 Cluster 3 (Hijau Muda)
 Pendapatan rendah, spending rendah. Ini segmen pelanggan yang “hemat” atau jarang belanja.
+
 Cluster 4 (Kuning)
 Pendapatan tinggi, spending rendah. Bisa jadi ini orang kaya tapi nggak suka belanja (conservative customer).
