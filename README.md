@@ -30,3 +30,7 @@ Pendapatan rendah, spending rendah. Ini segmen pelanggan yang “hemat” atau j
 
 Cluster 4 (Kuning)
 Pendapatan tinggi, spending rendah. Bisa jadi ini orang kaya tapi nggak suka belanja (conservative customer).
+
+# visualisasi distribusi data (histogram + garis KDE)
+
+![Dashboard Modul-9-Clustering] (https://github.com/RIFAANDIANI/Modul-9-Clustering/blob/master/Screenshot%202025-10-28%20030212.png)
